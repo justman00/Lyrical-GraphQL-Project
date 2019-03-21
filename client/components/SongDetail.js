@@ -10,7 +10,7 @@ class SongDetail extends Component {
     if (this.props.data.loading) {
       return <div>Loading...</div>;
     }
-
+    console.log(this.props.data);
     return (
       <div className="container">
         <Link to="/">Back</Link>
